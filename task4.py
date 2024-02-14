@@ -25,7 +25,7 @@ def show_phone(args, contacts):
 def show_all(contacts):
     for key in contacts:
         return contacts
-        # return f"{key:10} : {contacts[key]}"
+
 
        
 
