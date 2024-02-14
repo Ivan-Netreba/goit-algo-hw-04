@@ -24,7 +24,8 @@ def show_phone(args, contacts):
     
 def show_all(contacts):
     for key in contacts:
-        print(f"{key:10} : {contacts[key]}")
+        return contacts
+        # return f"{key:10} : {contacts[key]}"
 
        
 
@@ -47,8 +48,7 @@ def main():
         elif command == "phone":
             print(show_phone(args, contacts))
         elif command == "all":
-            show_all(contacts)
-
+            print(show_all(contacts))
         else:
             print("Invalid command.")
 
