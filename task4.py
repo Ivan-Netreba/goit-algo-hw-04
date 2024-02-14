@@ -23,12 +23,8 @@ def show_phone(args, contacts):
         return "No user found."
     
 def show_all(contacts):
-    for key in contacts:
-        return contacts
-
-
-       
-
+    return contacts
+    
 def main():
     contacts = {}
     print("Welcome to the assistant bot!")
